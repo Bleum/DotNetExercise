@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestLists xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestList name="Lists of Tests" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <RunConfiguration id="0e390ac7-e99d-4403-b911-e1b3340a6fda" name="Local" storage="local.testsettings" type="Microsoft.VisualStudio.TestTools.Common.TestRunConfiguration, Microsoft.VisualStudio.QualityTools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestList>
+  <TestList name="Login" id="cd3096c2-7565-486f-92e9-8244fe97b6cf" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="23860a60-9ba2-1c1c-ade0-9be6ac6057b8" name="LoginCorrect" storage="seleniumtestproject\bin\debug\seleniumtestproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="6a48a8da-e438-a8e3-315a-54de3b4c84c3" name="LoginWrongPassword" storage="seleniumtestproject\bin\debug\seleniumtestproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="0ed6af0d-a1a8-59a0-ca83-685fb783398b" name="LoginWrongUsername" storage="seleniumtestproject\bin\debug\seleniumtestproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+</TestLists>

@@ -1,0 +1,55 @@
+﻿@model IPagedList<Employee>
+@{
+    ViewBag.Title = "Index";
+}
+<h2>
+    Index</h2>
+<script type="text/javascript">
+    $(function () {
+
+    });
+</script>
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.DropDownList("Property")
+        @Html.TextBox("Value")
+        <input type="submit" value="Search" />
+    </div>
+}
+<table>
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Title
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@Html.PagedListPager(Model, page =>
+    Url.Action("Index", new
+    {
+        pageNumber = page,
+        pageSize = 5,
+        property = ViewData.ModelState["property"],
+        value = ViewData.ModelState["value"]
+    }))

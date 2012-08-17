@@ -1,0 +1,140 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSystem", "EmployeeSystem\EmployeeSystem.csproj", "{C1B36CCB-D007-455A-9D4C-4DFF8C94B753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{BF469096-5FAA-410A-83EC-E86C2E629EE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{148ABBB1-8E0D-45F3-B982-DE797C3AD5AF}"
+	ProjectSection(SolutionItems) = preProject
+		EmployeeSystem.vsmdi = EmployeeSystem.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTestProject", "SeleniumTestProject\SeleniumTestProject.csproj", "{B37B692D-D8C1-4D1E-A37B-CAB29D559577}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{201B42B6-EDC5-44BE-B4F4-58D80AD498F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9E192D42-B191-4EB6-A557-DFA0E167CD6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D31EA403-1C12-411B-85D5-34846F7511FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSystem.Model", "EmployeeSystem.Model\EmployeeSystem.Model.csproj", "{F1C8B912-CB2E-4F05-AFB8-5961C2F48D7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{BC847AE6-C1DC-483B-8AD2-66A3B0B8878E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSystem.Infrastructure.Repositories", "EmployeeSystem.Infrastructure.Repositories\EmployeeSystem.Infrastructure.Repositories.csproj", "{DB0A3A02-BEA7-4DB1-B610-8E8BB4AAD6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bleum.Infrastructure", "EmployeeSystem.Infrastructure\Bleum.Infrastructure.csproj", "{E27DA6CB-BA9A-4C05-9FB4-A577A5094013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bleum.Infrastructure.Repositories.EntityFramework", "EmployeeSystem.Infrastructure.Repositories.EntityFramework\Bleum.Infrastructure.Repositories.EntityFramework.csproj", "{1AE7305B-78CD-4EE0-ACE5-900E1EF3D082}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D1F7ADC8-FF90-4407-8B83-1FCA6A5DC822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSystem.Service", "EmployeeSystem.Service\EmployeeSystem.Service.csproj", "{A53FEC06-FE24-4096-995E-20DBC9EEFC61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CBFE2B2B-6A3F-4EAE-B55F-F434C83B90F9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://bs-pc-649:8080/tfs/mvcdemo
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = UnitTestProject\\UnitTestProject.csproj
+		SccProjectTopLevelParentUniqueName1 = EmployeeSystem.sln
+		SccProjectName1 = UnitTestProject
+		SccLocalPath1 = UnitTestProject
+		SccProjectUniqueName2 = SeleniumTestProject\\SeleniumTestProject.csproj
+		SccProjectTopLevelParentUniqueName2 = EmployeeSystem.sln
+		SccProjectName2 = SeleniumTestProject
+		SccLocalPath2 = SeleniumTestProject
+		SccProjectUniqueName3 = EmployeeSystem\\EmployeeSystem.csproj
+		SccProjectTopLevelParentUniqueName3 = EmployeeSystem.sln
+		SccProjectName3 = EmployeeSystem
+		SccLocalPath3 = EmployeeSystem
+		SccProjectUniqueName4 = EmployeeSystem.Model\\EmployeeSystem.Model.csproj
+		SccProjectTopLevelParentUniqueName4 = EmployeeSystem.sln
+		SccProjectName4 = EmployeeSystem.Model
+		SccLocalPath4 = EmployeeSystem.Model
+		SccProjectUniqueName5 = EmployeeSystem.Infrastructure.Repositories\\EmployeeSystem.Infrastructure.Repositories.csproj
+		SccProjectTopLevelParentUniqueName5 = EmployeeSystem.sln
+		SccProjectName5 = EmployeeSystem.Infrastructure.Repositories
+		SccLocalPath5 = EmployeeSystem.Infrastructure.Repositories
+		SccProjectUniqueName6 = EmployeeSystem.Infrastructure\\EmployeeSystem.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName6 = EmployeeSystem.sln
+		SccProjectName6 = EmployeeSystem.Infrastructure
+		SccLocalPath6 = EmployeeSystem.Infrastructure
+		SccProjectUniqueName7 = EmployeeSystem.Infrastructure.Repositories.EntityFramework\\EmployeeSystem.Infrastructure.Repositories.EntityFramework.csproj
+		SccProjectTopLevelParentUniqueName7 = EmployeeSystem.sln
+		SccProjectName7 = EmployeeSystem.Infrastructure.Repositories.EntityFramework
+		SccLocalPath7 = EmployeeSystem.Infrastructure.Repositories.EntityFramework
+		SccProjectUniqueName8 = EmployeeSystem.Service\\EmployeeSystem.Service.csproj
+		SccProjectTopLevelParentUniqueName8 = EmployeeSystem.sln
+		SccProjectName8 = EmployeeSystem.Service
+		SccLocalPath8 = EmployeeSystem.Service
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = EmployeeSystem.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1B36CCB-D007-455A-9D4C-4DFF8C94B753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B36CCB-D007-455A-9D4C-4DFF8C94B753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B36CCB-D007-455A-9D4C-4DFF8C94B753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B36CCB-D007-455A-9D4C-4DFF8C94B753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF469096-5FAA-410A-83EC-E86C2E629EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF469096-5FAA-410A-83EC-E86C2E629EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF469096-5FAA-410A-83EC-E86C2E629EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF469096-5FAA-410A-83EC-E86C2E629EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37B692D-D8C1-4D1E-A37B-CAB29D559577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37B692D-D8C1-4D1E-A37B-CAB29D559577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37B692D-D8C1-4D1E-A37B-CAB29D559577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37B692D-D8C1-4D1E-A37B-CAB29D559577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C8B912-CB2E-4F05-AFB8-5961C2F48D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C8B912-CB2E-4F05-AFB8-5961C2F48D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C8B912-CB2E-4F05-AFB8-5961C2F48D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C8B912-CB2E-4F05-AFB8-5961C2F48D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0A3A02-BEA7-4DB1-B610-8E8BB4AAD6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0A3A02-BEA7-4DB1-B610-8E8BB4AAD6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0A3A02-BEA7-4DB1-B610-8E8BB4AAD6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0A3A02-BEA7-4DB1-B610-8E8BB4AAD6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27DA6CB-BA9A-4C05-9FB4-A577A5094013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27DA6CB-BA9A-4C05-9FB4-A577A5094013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27DA6CB-BA9A-4C05-9FB4-A577A5094013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27DA6CB-BA9A-4C05-9FB4-A577A5094013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE7305B-78CD-4EE0-ACE5-900E1EF3D082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE7305B-78CD-4EE0-ACE5-900E1EF3D082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE7305B-78CD-4EE0-ACE5-900E1EF3D082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE7305B-78CD-4EE0-ACE5-900E1EF3D082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53FEC06-FE24-4096-995E-20DBC9EEFC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53FEC06-FE24-4096-995E-20DBC9EEFC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53FEC06-FE24-4096-995E-20DBC9EEFC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53FEC06-FE24-4096-995E-20DBC9EEFC61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1B36CCB-D007-455A-9D4C-4DFF8C94B753} = {D31EA403-1C12-411B-85D5-34846F7511FB}
+		{B37B692D-D8C1-4D1E-A37B-CAB29D559577} = {D1F7ADC8-FF90-4407-8B83-1FCA6A5DC822}
+		{BF469096-5FAA-410A-83EC-E86C2E629EE6} = {D1F7ADC8-FF90-4407-8B83-1FCA6A5DC822}
+		{F1C8B912-CB2E-4F05-AFB8-5961C2F48D7C} = {201B42B6-EDC5-44BE-B4F4-58D80AD498F0}
+		{DB0A3A02-BEA7-4DB1-B610-8E8BB4AAD6A4} = {9E192D42-B191-4EB6-A557-DFA0E167CD6F}
+		{E27DA6CB-BA9A-4C05-9FB4-A577A5094013} = {9E192D42-B191-4EB6-A557-DFA0E167CD6F}
+		{1AE7305B-78CD-4EE0-ACE5-900E1EF3D082} = {9E192D42-B191-4EB6-A557-DFA0E167CD6F}
+		{A53FEC06-FE24-4096-995E-20DBC9EEFC61} = {BC847AE6-C1DC-483B-8AD2-66A3B0B8878E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
