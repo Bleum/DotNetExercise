@@ -42,44 +42,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CBFE2B
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://bs-pc-649:8080/tfs/mvcdemo
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = UnitTestProject\\UnitTestProject.csproj
-		SccProjectTopLevelParentUniqueName1 = EmployeeSystem.sln
-		SccProjectName1 = UnitTestProject
-		SccLocalPath1 = UnitTestProject
-		SccProjectUniqueName2 = SeleniumTestProject\\SeleniumTestProject.csproj
-		SccProjectTopLevelParentUniqueName2 = EmployeeSystem.sln
-		SccProjectName2 = SeleniumTestProject
-		SccLocalPath2 = SeleniumTestProject
-		SccProjectUniqueName3 = EmployeeSystem\\EmployeeSystem.csproj
-		SccProjectTopLevelParentUniqueName3 = EmployeeSystem.sln
-		SccProjectName3 = EmployeeSystem
-		SccLocalPath3 = EmployeeSystem
-		SccProjectUniqueName4 = EmployeeSystem.Model\\EmployeeSystem.Model.csproj
-		SccProjectTopLevelParentUniqueName4 = EmployeeSystem.sln
-		SccProjectName4 = EmployeeSystem.Model
-		SccLocalPath4 = EmployeeSystem.Model
-		SccProjectUniqueName5 = EmployeeSystem.Infrastructure.Repositories\\EmployeeSystem.Infrastructure.Repositories.csproj
-		SccProjectTopLevelParentUniqueName5 = EmployeeSystem.sln
-		SccProjectName5 = EmployeeSystem.Infrastructure.Repositories
-		SccLocalPath5 = EmployeeSystem.Infrastructure.Repositories
-		SccProjectUniqueName6 = EmployeeSystem.Infrastructure\\EmployeeSystem.Infrastructure.csproj
-		SccProjectTopLevelParentUniqueName6 = EmployeeSystem.sln
-		SccProjectName6 = EmployeeSystem.Infrastructure
-		SccLocalPath6 = EmployeeSystem.Infrastructure
-		SccProjectUniqueName7 = EmployeeSystem.Infrastructure.Repositories.EntityFramework\\EmployeeSystem.Infrastructure.Repositories.EntityFramework.csproj
-		SccProjectTopLevelParentUniqueName7 = EmployeeSystem.sln
-		SccProjectName7 = EmployeeSystem.Infrastructure.Repositories.EntityFramework
-		SccLocalPath7 = EmployeeSystem.Infrastructure.Repositories.EntityFramework
-		SccProjectUniqueName8 = EmployeeSystem.Service\\EmployeeSystem.Service.csproj
-		SccProjectTopLevelParentUniqueName8 = EmployeeSystem.sln
-		SccProjectName8 = EmployeeSystem.Service
-		SccLocalPath8 = EmployeeSystem.Service
-	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = EmployeeSystem.vsmdi
 	EndGlobalSection
