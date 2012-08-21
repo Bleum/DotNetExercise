@@ -44,8 +44,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll</HintPath>
+    <Reference Include="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
@@ -193,9 +193,9 @@
       <Project>{DB0A3A02-BEA7-4DB1-B610-8E8BB4AAD6A4}</Project>
       <Name>EmployeeSystem.Infrastructure.Repositories</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EmployeeSystem.Infrastructure\Bleum.Infrastructure.csproj">
+    <ProjectReference Include="..\EmployeeSystem.Infrastructure\EmployeeSystem.Infrastructure.csproj">
       <Project>{E27DA6CB-BA9A-4C05-9FB4-A577A5094013}</Project>
-      <Name>Bleum.Infrastructure</Name>
+      <Name>EmployeeSystem.Infrastructure</Name>
     </ProjectReference>
     <ProjectReference Include="..\EmployeeSystem.Model\EmployeeSystem.Model.csproj">
       <Project>{F1C8B912-CB2E-4F05-AFB8-5961C2F48D7C}</Project>

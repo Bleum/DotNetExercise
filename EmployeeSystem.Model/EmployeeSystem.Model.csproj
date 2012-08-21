@@ -42,7 +42,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -72,9 +71,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EmployeeSystem.Infrastructure\Bleum.Infrastructure.csproj">
+    <ProjectReference Include="..\EmployeeSystem.Infrastructure\EmployeeSystem.Infrastructure.csproj">
       <Project>{E27DA6CB-BA9A-4C05-9FB4-A577A5094013}</Project>
-      <Name>Bleum.Infrastructure</Name>
+      <Name>EmployeeSystem.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

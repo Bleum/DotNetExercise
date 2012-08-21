@@ -26,9 +26,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSystem.Infrastructure.Repositories", "EmployeeSystem.Infrastructure.Repositories\EmployeeSystem.Infrastructure.Repositories.csproj", "{DB0A3A02-BEA7-4DB1-B610-8E8BB4AAD6A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bleum.Infrastructure", "EmployeeSystem.Infrastructure\Bleum.Infrastructure.csproj", "{E27DA6CB-BA9A-4C05-9FB4-A577A5094013}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSystem.Infrastructure", "EmployeeSystem.Infrastructure\EmployeeSystem.Infrastructure.csproj", "{E27DA6CB-BA9A-4C05-9FB4-A577A5094013}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bleum.Infrastructure.Repositories.EntityFramework", "EmployeeSystem.Infrastructure.Repositories.EntityFramework\Bleum.Infrastructure.Repositories.EntityFramework.csproj", "{1AE7305B-78CD-4EE0-ACE5-900E1EF3D082}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSystem.Infrastructure.Repositories.EntityFramework", "EmployeeSystem.Infrastructure.Repositories.EntityFramework\EmployeeSystem.Infrastructure.Repositories.EntityFramework.csproj", "{1AE7305B-78CD-4EE0-ACE5-900E1EF3D082}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D1F7ADC8-FF90-4407-8B83-1FCA6A5DC822}"
 EndProject

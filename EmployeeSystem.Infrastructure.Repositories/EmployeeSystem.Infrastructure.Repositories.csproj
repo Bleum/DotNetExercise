@@ -41,8 +41,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll</HintPath>
+    <Reference Include="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -60,13 +61,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EmployeeSystem.Infrastructure.Repositories.EntityFramework\Bleum.Infrastructure.Repositories.EntityFramework.csproj">
+    <ProjectReference Include="..\EmployeeSystem.Infrastructure.Repositories.EntityFramework\EmployeeSystem.Infrastructure.Repositories.EntityFramework.csproj">
       <Project>{1AE7305B-78CD-4EE0-ACE5-900E1EF3D082}</Project>
-      <Name>Bleum.Infrastructure.Repositories.EntityFramework</Name>
+      <Name>EmployeeSystem.Infrastructure.Repositories.EntityFramework</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EmployeeSystem.Infrastructure\Bleum.Infrastructure.csproj">
+    <ProjectReference Include="..\EmployeeSystem.Infrastructure\EmployeeSystem.Infrastructure.csproj">
       <Project>{E27DA6CB-BA9A-4C05-9FB4-A577A5094013}</Project>
-      <Name>Bleum.Infrastructure</Name>
+      <Name>EmployeeSystem.Infrastructure</Name>
     </ProjectReference>
     <ProjectReference Include="..\EmployeeSystem.Model\EmployeeSystem.Model.csproj">
       <Project>{F1C8B912-CB2E-4F05-AFB8-5961C2F48D7C}</Project>
@@ -74,6 +75,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
